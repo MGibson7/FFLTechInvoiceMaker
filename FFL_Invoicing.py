@@ -36,9 +36,9 @@ time.sleep(10)
 #y = input("password")
 
 elem = driver.find_element_by_name('j_username')
-elem.send_keys("michael.gibson.pv")
+elem.send_keys("INSERT USERNAME HERE")
 elem = driver.find_element_by_name('j_password')
-elem.send_keys("TeeHiggins85!!!!")
+elem.send_keys("INSERT PASSWORD HERE")
 elem = driver.find_element_by_name('submit')
 elem.click()
 
